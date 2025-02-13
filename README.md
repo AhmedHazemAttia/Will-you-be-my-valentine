@@ -1,8 +1,9 @@
-# React + Vite
+# Happy Valentine ❤️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hey There Coder, i see you are trying to find a cool idea asking your partner to go out in a valentine date? Right?
+i saved the time for you, send here the below link and ask her out in a nice cool way. 
+100% Guranteed she will choose yes, we don't take a no as an answer buddy, go ahead and have fun.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Link for your valentine date prompt: 
+https://ahmedhazemattia.github.io/Will-you-ve-my-valentine/
