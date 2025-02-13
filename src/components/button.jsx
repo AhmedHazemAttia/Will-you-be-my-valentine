@@ -3,7 +3,7 @@ const ButtonComponent = () => {
     const [yesSize, setYesSize] = useState(16);
     const [noText, setNoText] = useState("No");
     const [yestext, setYestext] = useState("yes");
-    const noTexts = ["Are you sure?", "Really", "Positive?", "Think again...", "it can't be", "HANAAAAN!!!!!?","I won't ask again", "Please?"];
+    const noTexts = ["Are you sure?", "Really", "Positive?", "Think again...", "it can't be", "WHYYYYYYYY!!!!!?","I won't ask again", "Please?"];
     const [noIndex, setNoIndex] = useState(0);
     const [showButton, setShowButton] = useState(true)
   const handleNoClick = () => {
