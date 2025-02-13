@@ -5,7 +5,7 @@ const ButtonComponent = () => {
     const [yestext, setYestext] = useState("yes");
     const noTexts = ["Are you sure?", "Really", "Positive?", "Think again...", "it can't be", "HANAAAAN!!!!!?","I won't ask again", "Please?"];
     const [noIndex, setNoIndex] = useState(0);
-
+    const [showButton, setShowButton] = useState(true)
   const handleNoClick = () => {
     setYesSize((prevSize) => prevSize + 25);
     setNoIndex((prevIndex) => (prevIndex + 1) % noTexts.length);
@@ -15,6 +15,7 @@ const ButtonComponent = () => {
   const handleYesClick = () => {
     setYestext('i knew it my Love ❤️ May we have a life full of love and pizza ')
     setYesSize(50)
+    setShowButton(false)
   }
 
   return (
@@ -27,12 +28,12 @@ const ButtonComponent = () => {
         >
             {yestext}
         </button>
-        <button
+        { showButton && <button
             className="btn btn-danger"
             onClick={handleNoClick}
         >
             {noText}
-        </button>
+        </button>}
     </div>
     </div>
 );
