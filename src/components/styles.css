@@ -1,0 +1,12 @@
+.btn {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn .btn-primary,
+.btn .btn-danger {
+    flex: 1;
+    margin: 0 10px;
+}
